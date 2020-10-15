@@ -1,3 +1,4 @@
+12/10/2020:
 - Rom downloaded from https://wowroms.com/en/isos/playstation/download-harry-potter-and-the-sorcerers-stone/31783.html (US version)
 - The .bin can be converted into a mountable .iso (or mounted directly ? dunno)
 - The arborescence of the mounted directory is given below :
@@ -12,3 +13,6 @@
 └── zdummy.dat
 
 - Obviously, the movies folder is for cutscenes, the .dat contains the models and other 3D stuff and the rest is either a config file or contains compiled code
+
+15/10/2020:
+- Got some results when scanning the .bin with psxprev (https://github.com/rickomax/psxprev), the tool manages to detect a bunch of files but fails to correctly display any of them. The offsets for the detected files are in psxprev_log.log.
